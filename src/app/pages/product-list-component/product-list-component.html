@@ -1,4 +1,4 @@
-<section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+<section class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
     @for (product of products; track product.id){
         <app-product-card-component [product]="product"></app-product-card-component>
     }
