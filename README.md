@@ -6,16 +6,10 @@ Aplicació web SPA desenvolupada amb **Angular** per visualitzar un llistat de l
 
 ## 🚀 Objectiu del projecte
 
-Permetre als clients potencials:
+Permetre a la gent que visita la web:
 
-- Seleccionar serveis digitals
-- Configurar una web a mida
-- Introduir les seves dades
-- Obtenir un pressupost desglossat automàticament
-- Accedir al pressupost mitjançant una URL única
-- Consultar un històric de pressupostos generats
-
-L’objectiu és reduir temps comercial, millorar conversió i oferir transparència en els costos.
+- Llistar una serie de Llibres
+- Veure les caracteristiques de cada Llibre
 
 ---
 
