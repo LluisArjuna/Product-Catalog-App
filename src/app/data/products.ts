@@ -6,7 +6,7 @@ export const products: Product[] = [
     title: "Book 1",
     price: 19.99,
     description: "This is the description for Book 1.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/a/300/400",
     category: "romance"
   },
   {
@@ -14,7 +14,7 @@ export const products: Product[] = [
     title: "Book 2",
     price: 19.99,
     description: "This is the description for Book 2.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/b/300/400",
     category: "terror"
   },
   {
@@ -22,7 +22,7 @@ export const products: Product[] = [
     title: "Book 3",
     price: 19.99,
     description: "This is the description for Book 3.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/c/300/400",
     category: "fiction"
   },
   {
@@ -30,7 +30,7 @@ export const products: Product[] = [
     title: "Book 4",
     price: 19.99,
     description: "This is the description for Book 4.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/d/300/400",
     category: "adventure"
   },
   {
@@ -38,7 +38,7 @@ export const products: Product[] = [
     title: "Book 5",
     price: 19.99,
     description: "This is the description for Book 5.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/f/300/400",
     category: "comedy"
   },
   {
@@ -46,7 +46,7 @@ export const products: Product[] = [
     title: "Book 6",
     price: 19.99,
     description: "This is the description for Book 6.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/g/300/400",
     category: "romance"
   },
   {
@@ -54,7 +54,7 @@ export const products: Product[] = [
     title: "Book 7",
     price: 19.99,
     description: "This is the description for Book 7.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/h/300/400",
     category: "noir"
   },
   {
@@ -62,7 +62,7 @@ export const products: Product[] = [
     title: "Book 8",
     price: 19.99,
     description: "This is the description for Book 8.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/i/300/400",
     category: "adventure"
   },
   {
@@ -70,7 +70,7 @@ export const products: Product[] = [
     title: "Book 9",
     price: 19.99,
     description: "This is the description for Book 9.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/j/300/400",
     category: "fantasy"
   },
   {
@@ -78,7 +78,7 @@ export const products: Product[] = [
     title: "Book 10",
     price: 19.99,
     description: "This is the description for Book 10.",
-    image: "https://picsum.photos/300/200",
+    image: "https://picsum.photos/seed/k/300/400",
     category: "fantasy"
   }
 ];
