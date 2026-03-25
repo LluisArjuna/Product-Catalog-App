@@ -1,0 +1,6 @@
+<section style="background-image: url('{{ product().image }}');" class="flex flex-col sm:flex-row sm: justify-between w-full p-4 border rounded-lg shadow-md bg-cover bg-center h-84 cursor-pointer"
+
+[routerLink]="['/products', product().id]">
+    <h2 class="text-xl font-bold">{{ product().title }}</h2>
+    <p class="text-lg font-semibold">{{ product().price | currency }}</p>
+</section>

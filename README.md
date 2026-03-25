@@ -1,59 +1,75 @@
-# ProductCatalogApp
+# Product Catalog App – Generador de Pressupostos Digitals
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0-next.2.
+Aplicació web SPA desenvolupada amb **Angular** per visualitzar un llistat de llibres.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Objectiu del projecte
 
-```bash
-ng serve
-```
+Permetre a la gent que visita la web:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Llistar una serie de Llibres
+- Veure les caracteristiques de cada Llibre
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tecnologies utilitzades
 
-```bash
-ng generate component component-name
-```
+- Angular (Standalone Components)
+- TypeScript
+- Signals / Reactive Forms
+- LocalStorage (persistència MVP)
+- CSS (Mobile-first design)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🖥️ System Requirements
 
-## Building
+### Required Software
 
-To build the project run:
+1️⃣ Node.js
 
-```bash
-ng build
-```
+2️⃣ npm
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+3️⃣ Angular CLI
 
 ```bash
-ng test
+npm install -g @angular/cli
 ```
 
-## Running end-to-end tests
+### Project Installation
 
-For end-to-end (e2e) testing, run:
+Clone the repository:
 
 ```bash
-ng e2e
+git clone https://github.com/LluisArjuna/Product-Catalog-App.git
+cd Product-Catalog-App
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+### Project Execution
 
-## Additional Resources
+```bash
+ng serve --open
+```
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+### Test Execution
+
+```bash
+ng test --open
+```
+
+---
+
+## 📦 Estructura del projecte
+
+```bash
+src/app/
+├── data/ → dades locals amb els productes
+├── components/ → Components reutilitzables UI
+├── interfaces/ → Models i tipus
+├── layouts/ → Navbar, Footer, Layout principal
+├── pages/ → Vistes amb routing
+├── logic/ → Lògica de negoci i persistència
+```
