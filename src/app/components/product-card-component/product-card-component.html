@@ -1,1 +1,5 @@
-<p>product-card-component works!</p>
+<section class="flex flex-col sm:flex-row sm: justify-between w-full p-4 border rounded-lg shadow-md bg-[url({{ product().image }})] bg-cover bg-center"
+[routerLink]="['/products', product().id]">
+    <h2 class="text-xl font-bold">{{ product().title }}</h2>
+    <p class="text-lg font-semibold">${{ product().price | currency }}</p>
+</section>
