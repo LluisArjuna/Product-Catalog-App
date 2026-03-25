@@ -6,8 +6,7 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-product-card-component',
   imports: [CurrencyPipe, RouterLink],
-  templateUrl: './product-card-component.html',
-  styleUrl: './product-card-component.css',
+  templateUrl: './product-card-component.html'
 })
 export class ProductCardComponent {
   product = input.required<Product>();
